@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>parseAppID</key>
+	<string>7B2pGHgPM8cgqhr81wyGntOQ4zOBcXdEk1s8YFks</string>
+	<key>parseRestKey</key>
+	<string>7KzFMv9cdz6DE1CAMUUju2y6rp9OWbiO5801bHNx</string>
+	<key>apiURL</key>
+	<string>https://api.parse.com/1/classes</string>
+</dict>
+</plist>

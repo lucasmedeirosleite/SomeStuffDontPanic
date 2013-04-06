@@ -1,0 +1,18 @@
+query("tableView")
+query("tableView")
+query("tableView tableViewCell index:0")
+query("tableView tableViewCell index:0 titleLabel text")
+query("tableView tableViewCell index:0 titleLabel")
+query("tableView tableViewCell index:0")['titleLabel']
+query("tableView tableViewCell index:0")
+query("tableView tableViewCell index:0", "titleLabel")
+query("tableView tableViewCell index:0", "titleLabel")[0]
+element_exists("view")
+element_exists("view tableView")
+element_exists("view tableView tableViewCell")
+element_exists("view tableView tableViewCell marked:'Person 1'")
+element_exists("view tableView tableViewCell titleLabel)
+query("label text:'Person 1' parent tableViewCell")
+query("label text:'Person 1' parent tableViewCell")
+element_exists("label text:'Person 1' parent tableViewCell")
+exit

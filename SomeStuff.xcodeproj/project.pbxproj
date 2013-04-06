@@ -23,7 +23,6 @@
 		C6070EEB170E5876005436B3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C6070EE8170E5876005436B3 /* Default.png */; };
 		C6070EEC170E5876005436B3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6070EE9170E5876005436B3 /* Default@2x.png */; };
 		C6070F09170E5B9D005436B3 /* CMAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C6070F08170E5B9D005436B3 /* CMAPIClient.m */; };
-		C6070F0C170E5C0A005436B3 /* CMAppEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = C6070F0B170E5C0A005436B3 /* CMAppEnvironment.m */; };
 		C6070F0F170E5CA5005436B3 /* Debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6070F0D170E5CA5005436B3 /* Debug.plist */; };
 		C6070F11170E5CA5005436B3 /* Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6070F0E170E5CA5005436B3 /* Release.plist */; };
 		C6070F16170E5E3E005436B3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6070F15170E5E3E005436B3 /* CoreData.framework */; };
@@ -37,7 +36,6 @@
 		C6070F2C170E742E005436B3 /* CMPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6070F2B170E742E005436B3 /* CMPersonViewController.m */; };
 		C679BC8F170E8386007F9D7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6070EB2170E572C005436B3 /* main.m */; };
 		C679BC90170E8386007F9D7B /* CMAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C6070F08170E5B9D005436B3 /* CMAPIClient.m */; };
-		C679BC91170E8386007F9D7B /* CMAppEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = C6070F0B170E5C0A005436B3 /* CMAppEnvironment.m */; };
 		C679BC92170E8386007F9D7B /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6070F1E170E5F22005436B3 /* CMAppDelegate.m */; };
 		C679BC93170E8386007F9D7B /* CMMappings.m in Sources */ = {isa = PBXBuildFile; fileRef = C6070F22170E6DA2005436B3 /* CMMappings.m */; };
 		C679BC94170E8386007F9D7B /* CMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C6070F25170E6DF4005436B3 /* CMPerson.m */; };
@@ -63,6 +61,8 @@
 		C6BA7A52170FBE05009F1A3B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BA7A50170FBDE7009F1A3B /* CFNetwork.framework */; };
 		C6BA7A53170FBE11009F1A3B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BA7A50170FBDE7009F1A3B /* CFNetwork.framework */; };
 		C6BA7A56170FBFEF009F1A3B /* CMPersonSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA7A55170FBFEF009F1A3B /* CMPersonSpec.m */; };
+		C6BA7A59170FD7C2009F1A3B /* CMAppEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA7A58170FD7C2009F1A3B /* CMAppEnvironment.m */; };
+		C6BA7A5A170FD7C2009F1A3B /* CMAppEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA7A58170FD7C2009F1A3B /* CMAppEnvironment.m */; };
 		E1D13FACC0634096B8E2F599 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA76AF1E310452C83F13893 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -101,8 +101,6 @@
 		C6070EE9170E5876005436B3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Assets/Images/Default@2x.png"; sourceTree = "<group>"; };
 		C6070F07170E5B9D005436B3 /* CMAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMAPIClient.h; path = API/CMAPIClient.h; sourceTree = "<group>"; };
 		C6070F08170E5B9D005436B3 /* CMAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMAPIClient.m; path = API/CMAPIClient.m; sourceTree = "<group>"; };
-		C6070F0A170E5C0A005436B3 /* CMAppEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAppEnvironment.h; sourceTree = "<group>"; };
-		C6070F0B170E5C0A005436B3 /* CMAppEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAppEnvironment.m; sourceTree = "<group>"; };
 		C6070F0D170E5CA5005436B3 /* Debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Debug.plist; sourceTree = "<group>"; };
 		C6070F0E170E5CA5005436B3 /* Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Release.plist; sourceTree = "<group>"; };
 		C6070F15170E5E3E005436B3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -125,6 +123,8 @@
 		C6BA7A4C170FB3F3009F1A3B /* CMAPIClientSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMAPIClientSpec.m; path = API/CMAPIClientSpec.m; sourceTree = "<group>"; };
 		C6BA7A50170FBDE7009F1A3B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		C6BA7A55170FBFEF009F1A3B /* CMPersonSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPersonSpec.m; sourceTree = "<group>"; };
+		C6BA7A57170FD7C2009F1A3B /* CMAppEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMAppEnvironment.h; path = Models/CMAppEnvironment.h; sourceTree = "<group>"; };
+		C6BA7A58170FD7C2009F1A3B /* CMAppEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMAppEnvironment.m; path = Models/CMAppEnvironment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,8 +299,8 @@
 		C6070EE4170E5850005436B3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C6070F0A170E5C0A005436B3 /* CMAppEnvironment.h */,
-				C6070F0B170E5C0A005436B3 /* CMAppEnvironment.m */,
+				C6BA7A57170FD7C2009F1A3B /* CMAppEnvironment.h */,
+				C6BA7A58170FD7C2009F1A3B /* CMAppEnvironment.m */,
 				C6070F24170E6DF4005436B3 /* CMPerson.h */,
 				C6070F25170E6DF4005436B3 /* CMPerson.m */,
 			);
@@ -557,12 +557,12 @@
 			files = (
 				C6070EB3170E572C005436B3 /* main.m in Sources */,
 				C6070F09170E5B9D005436B3 /* CMAPIClient.m in Sources */,
-				C6070F0C170E5C0A005436B3 /* CMAppEnvironment.m in Sources */,
 				C6070F1F170E5F22005436B3 /* CMAppDelegate.m in Sources */,
 				C6070F23170E6DA2005436B3 /* CMMappings.m in Sources */,
 				C6070F26170E6DF4005436B3 /* CMPerson.m in Sources */,
 				C6070F29170E70A2005436B3 /* CMPeopleViewController.m in Sources */,
 				C6070F2C170E742E005436B3 /* CMPersonViewController.m in Sources */,
+				C6BA7A59170FD7C2009F1A3B /* CMAppEnvironment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,12 +581,12 @@
 			files = (
 				C679BC8F170E8386007F9D7B /* main.m in Sources */,
 				C679BC90170E8386007F9D7B /* CMAPIClient.m in Sources */,
-				C679BC91170E8386007F9D7B /* CMAppEnvironment.m in Sources */,
 				C679BC92170E8386007F9D7B /* CMAppDelegate.m in Sources */,
 				C679BC93170E8386007F9D7B /* CMMappings.m in Sources */,
 				C679BC94170E8386007F9D7B /* CMPerson.m in Sources */,
 				C679BC95170E8386007F9D7B /* CMPeopleViewController.m in Sources */,
 				C679BC96170E8386007F9D7B /* CMPersonViewController.m in Sources */,
+				C6BA7A5A170FD7C2009F1A3B /* CMAppEnvironment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
